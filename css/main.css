@@ -11,8 +11,198 @@ html {
   text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: Montserrat, sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+header {
+  background-color: #e88899;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #da7bd6;
+}
+
+label {
+  color: white;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li {
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+
+.nav-list li:first-child, .nav-list li:nth-child(2) {
+  width: 50%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.mostpopular {
+  background-color: #e88899;
+  color: white;
+}
+
+.mostpopular h2 {
+  font-size: 1.5rem;
+}
+
+.mostpopular p {
+    font-style: italic;
+    margin: 0;
+}
+
+.coffee {
+  background-color:
+}
+
+.coffee h2 {
+  color: white;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 25%;
+}
+
+.card {
+  text-align: center;
+}
+
+.coffeelist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.coffeelist h3 {
+  color: white;
+}
+
+.coffeelist p {
+  color: white;
+  font-size: .75rem;
+  padding: .5rem;
+}
+
+p {
+  margin: 0;
+}
+
+.coffee {
+  background-color: #e7afb9;
+}
+
+.hours img {
+  width: 75%;
+  border-radius: 50%;
+  margin: auto;
+  padding: 2rem 0;
+
+}
+
+.hours {
+  background-color: #e88899;
+}
+
+.hours h2, p {
+  color: white;
+  text-align: center;
+}
+
+.location {
+  background-color: #e7afb9;
+  text-align: center;
+}
+
+.location h2, p {
+  color: white;
+}
+
+
+.btn {
+  border-radius: .5rem;
+  border-style: solid;
+  background-color: #e88899;
+  border-color: #e0647a;
+  color: white;
+  text-decoration: none;
+}
+
+.contact {
+  background-color: #e88899;
+  text-align: center;
+}
+
+.contact h2, p {
+  color: white;
+}
+
+.review {
+  background-color: #e7afb9;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: .75rem;
+}
+
+.trademark {
+  text-align: left;
+  background-color: #e88899;
+  font-size: .5rem;
 }

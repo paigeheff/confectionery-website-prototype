@@ -15,55 +15,60 @@
         <h1>The Cat's Meow</h1>
       </div>
       <div>
-        <nav>
-          <ul>
-            <li><a href="link">Location</a></li>
-            <li><a href="link">Menu</a></li>
-            <li><a href="link">Contact</a></li>
-            <li><a href="link">Hours</a></li>
-            <li><a href="link">Review</a></li>
+        <input type="checkbox" class="nav-check" id=
+        "nav-check">
+        <label class="nav-label" for="nav-check">Sniff Around</label>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Hours</a></li>
+            <li><a href="#">Review</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <div>
-      <img src="images/covercatphoto.jpg" alt="">
+    <div class="coverphoto">
+      <img class="img-flex" src="images/covercatphoto.jpg" alt="">
     </div>
-    <div>
+    <div class="mostpopular">
       <h2>The most popular drink right meow</h2>
       <p>Catffe Latte</p>
     </div>
     <section class="coffee">
-      <div>
-        <img src="images/catcoffee.jpg" alt="">
-        <h2>Catpuccino</h2>
-        <p>Fair Trade double espresso, hot milk, and steamed milk foam.</p>
-      </div>
-      <div>
-        <img src="images/catcoffee2.jpg" alt="">
-        <h2>Catffe Latte</h2>
-        <p>Fair Trade espresso with steamed milk </p>
-      </div>
-      <div>
-        <img src="images/catcoffee3.jpg" alt="">
-        <h2>Catffe Mocha</h2>
-        <p>Fair Trade espresso and hot milk, with chocolate. Your choice of dark or milk chocolate.</p>
-      </div>
-      <div>
-        <img src="images/coffeecat4.jpg" alt="">
-        <h2>Cozy Cat Hot Chocolate</h2>
-        <p>Hot milk with cocoa powder. Whipped cream and shaved chocolate bits on top</p>
-      </div>
+      <h2>Menu</h2>
+      <ul class="coffeelist">
+        <li class="card">
+        <img class="img-circle" src="images/catcoffee.jpg" alt="">
+        <div class="card-text"> <h3>Catpuccino</h3>
+        <p>Fair Trade double espresso, hot milk, and steamed milk foam.</p></div></li>
+        <li class="card">
+        <img class="img-circle" src="images/catcoffee2.jpg" alt="">
+        <div class="card-text">
+        <h3>Catffe Latte</h3>
+        <p>Fair Trade espresso with steamed milk </p></div></li>
+        <li class="card">
+        <img class="img-circle" src="images/catcoffee3.jpg" alt="">
+        <div class="card-text">
+        <h3>Catffe Mocha</h3>
+        <p>Fair Trade espresso and hot milk, with chocolate. Your choice of dark or milk chocolate.</p></div></li>
+        <li class="card">
+        <img class="img-circle" src="images/coffeecat4.jpg" alt="">
+        <div class="card-text">
+        <h3>Cozy Cat Hot Chocolate</h3>
+        <p>Hot milk with cocoa powder. Whipped cream and shaved chocolate bits on top</p></div></li>
+      </ul>
     </section>
     <section class="hours">
-      <img src="images/.jpg" alt="">
-      <img src="images/.jpg" alt="">
+      <img class="img-flex" src="images/catlaying.jpg" alt="">
       <h2>Hours</h2>
-      <p>MON-SUN: 730am-8pm</p>
+      <p>MON-SUN: <time>730am-8pm</time></p>
     </section>
     <section class="location">
-      <img src="images/catinmug.jpg" alt="">
-      <h2>DowntownEastside Vancouver</h2>
+      <img class="img-flex" src="images/catinmug.jpg" alt="">
+      <h2>Location</h2>
+      <p>Downtown Eastside Vancouver</p>
       <p>403 Powell St.</p>
       <p>Overlooks the Vancouver Harbour, with a wonderful view. Family friendly and lots of exciting places to visit!</p>
       <a class="btn" href="#">Directions</a>
@@ -76,11 +81,11 @@
     </section>
     <section class="review">
       <h2>Review</h2>
-      <img src="images/rawr.jpg" alt="">
+      <img class="img-flex" src="images/rawr.jpg" alt="">
       <p><q>The cats were so friendly and enjoyable to play with! The coffee was delicious. I even adopted a cat as I left.</q></p>
-      <p>-Katarina Whiskers</p>
+      <footer>-Katarina Whiskers</footer>
     </section>
-    <footer>2014-2016 The Cat's Meow</footer>
+    <footer class="trademark">2014-2016 The Cat's Meow</footer>
   </main>
 </body>
 </html>
