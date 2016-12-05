@@ -115,12 +115,11 @@ p {
 }
 
 .mostpopular p {
-    font-style: italic;
-    margin: 0;
-    font-size: .75rem;
-    padding-bottom: 1rem;
+  font-style: italic;
+  margin: 0;
+  font-size: .75rem;
+  padding-bottom: 1rem;
 }
-
 
 .img-circle {
   border-radius: 50%;
@@ -155,7 +154,6 @@ p {
   background-color: #e7afb9;
 }
 
-
 .hours img {
   width: 75%;
   border-radius: 50%;
@@ -177,7 +175,7 @@ p {
   border-radius: 1.5rem;
   border-color: #e6c7cc;
   border-style: solid;
-  margin:1.5rem;
+  margin: 1.5rem;
 }
 
 .location {
@@ -208,6 +206,7 @@ p {
   border-color: #db3855;
 
 }
+
 .contact {
   background-color: #e88899;
   text-align: center;
@@ -228,7 +227,7 @@ p {
 }
 
 .review p {
-    font-style: italic;
+  font-style: italic;
 
 }
 
@@ -244,79 +243,79 @@ footer {
   font-size: .5rem;
 }
 
-
 @media only screen and (min-width: 25em) {
+
   html {
     font-size: 100%;
     line-height: 1.3;
   }
 
   h1,
-p {
-  margin: 0 0 1.3rem;
-}
+  p {
+    margin: 0 0 1.3rem;
+  }
 
-.nav-list {
-  display: inline-block;
-  width: 100%;
+  .nav-list {
+    display: inline-block;
+    width: 100%;
 
-}
+  }
 
-.img-circle {
-  float: left;
-}
+  .img-circle {
+    float: left;
+  }
 
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
-     font-size: 110%;
-     line-height: 1.4;
-   }
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
-   h1,
-   p {
-     margin: 0 0 1.4rem;
-   }
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
 
-   .img-flex {
-     position: relative;
-   }
+  .img-flex {
+    position: relative;
+  }
 
-   .mostpopular {
-      position: absolute;
-      bottom: -2em;
-      right: .5em;
-      border-radius: .5rem;
-   }
+  .mostpopular {
+    position: absolute;
+    bottom: -2em;
+    right: .5em;
+    border-radius: .5rem;
+  }
 
-   .coffeelist {
-     display: inline-block;
-   }
+  .coffeelist {
+    display: inline-block;
+  }
 
-.review img {
-  float: left;
-}
+  .review img {
+    float: left;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
-     font-size: 120%;
-     line-height: 1.5;
-   }
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
-    h1,
-    p {
-  margin: 0 0 1.5rem;
-}
-
-
-
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 90em) {
+
   html {
-  font-size: 130%;
-}
+    font-size: 130%;
+  }
 }
