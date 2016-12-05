@@ -24,6 +24,13 @@ body {
 
 h1, h2, h3 {
   margin: 0;
+
+}
+
+h2 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
 }
 
 header {
@@ -33,6 +40,11 @@ header {
 
 img {
   width: 100%;
+}
+
+section {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .nav {
@@ -93,21 +105,19 @@ h1 {
 }
 
 .mostpopular h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .mostpopular p {
     font-style: italic;
     margin: 0;
+    font-size: .75rem;
+    padding-bottom: 1rem;
 }
 
 .coffee {
   background-color:
-}
-
-.coffee h2 {
-  color: white;
-  text-align: center;
 }
 
 .img-circle {
@@ -137,6 +147,7 @@ h1 {
 
 p {
   margin: 0;
+  padding-top: .75rem;
 }
 
 .coffee {
@@ -169,7 +180,9 @@ p {
   color: white;
 }
 
-
+.margin-bottom {
+  margin-bottom: 1rem;
+}
 .btn {
   border-radius: .5rem;
   border-style: solid;
@@ -179,6 +192,11 @@ p {
   text-decoration: none;
 }
 
+.btn:hover {
+  background-color: #db3855;
+  border-color: #db3855;
+
+}
 .contact {
   background-color: #e88899;
   text-align: center;
@@ -192,7 +210,11 @@ p {
   background-color: #e7afb9;
   color: white;
   text-align: center;
-  font-style: italic;
+}
+
+.review p {
+    font-style: italic;
+
 }
 
 footer {
