@@ -270,6 +270,18 @@ p {
      margin: 0 0 1.4rem;
    }
 
+   .img-flex {
+     position: relative;
+   }
+
+   .mostpopular {
+      position: absolute;
+      bottom: -2em;
+      right: .5em;
+      border-radius: .5rem;
+   }
+
+
 }
 
 @media only screen and (min-width: 60em) {
