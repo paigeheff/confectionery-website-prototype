@@ -99,6 +99,11 @@ h1 {
   width: 100%;
 }
 
+p {
+  margin: 0;
+  padding-top: .75rem;
+}
+
 .mostpopular {
   background-color: #e88899;
   color: white;
@@ -147,14 +152,10 @@ h1 {
   padding: .5rem;
 }
 
-p {
-  margin: 0;
-  padding-top: .75rem;
-}
-
 .coffee {
   background-color: #e7afb9;
 }
+
 
 .hours img {
   width: 75%;
@@ -164,13 +165,13 @@ p {
 
 }
 
-.hours {
-  background-color: #e88899;
-}
-
 .hours h2, p {
   color: white;
   text-align: center;
+}
+
+.hours {
+  background-color: #e88899;
 }
 
 .location {
