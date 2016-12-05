@@ -290,6 +290,13 @@ p {
       border-radius: .5rem;
    }
 
+   .coffeelist {
+     display: inline-block;
+   }
+
+.review img {
+  float: left;
+}
 
 }
 
@@ -303,6 +310,7 @@ p {
     p {
   margin: 0 0 1.5rem;
 }
+
 
 
 }
