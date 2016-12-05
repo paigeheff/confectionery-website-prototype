@@ -139,7 +139,6 @@ p {
   border-radius: 1.5rem;
   border-color: #e6c7cc;
   border-style: solid;
-
 }
 
 .coffeelist h3 {
@@ -255,6 +254,16 @@ footer {
   h1,
 p {
   margin: 0 0 1.3rem;
+}
+
+.nav-list {
+  display: inline-block;
+  width: 100%;
+
+}
+
+.img-circle {
+  float: left;
 }
 
 }
