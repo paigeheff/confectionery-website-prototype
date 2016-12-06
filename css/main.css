@@ -119,6 +119,7 @@ p {
   margin: 0;
   font-size: .75rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 .img-circle {
@@ -162,7 +163,7 @@ p {
 
 }
 
-.hours h2, p {
+.hours h2 p {
   color: white;
   text-align: center;
 }
