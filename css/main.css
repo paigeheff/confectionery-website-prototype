@@ -163,7 +163,8 @@ p {
 
 }
 
-.hours h2 p {
+.hours p,
+.hours h2 {
   color: white;
   text-align: center;
 }
@@ -259,11 +260,14 @@ footer {
   .nav-list {
     display: inline-block;
     width: 100%;
-
   }
 
   .img-circle {
     float: left;
+  }
+
+  .card {
+    overflow: hidden;
   }
 
 }
@@ -286,14 +290,28 @@ footer {
 
   .mostpopular {
     position: absolute;
-    bottom: -2em;
-    right: .5em;
+    bottom: .5rem;
+    right: 1.3rem;
+    max-width: 30rem;
     border-radius: .5rem;
+    padding: .5rem;
   }
 
-  .coffeelist {
-    display: inline-block;
+  .card-text {
+    display: block;
+    width: 100%;
+
   }
+
+.img-circle {
+  display: block;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 22%;
+}
 
   .review img {
     float: left;
