@@ -211,7 +211,6 @@ p {
 
 .contact {
   background-color: #e88899;
-  text-align: center;
 }
 
 .contact h2, p {
@@ -219,7 +218,7 @@ p {
 }
 
 .contact p {
-  text-align: left;
+  text-align: center;
 }
 
 .review {
@@ -284,15 +283,19 @@ footer {
     margin: 0 0 1.4rem;
   }
 
+  .nav-list li {
+  display: inline;
+  }
+
   .img-flex {
     position: relative;
   }
 
   .mostpopular {
     position: absolute;
-    bottom: .5rem;
+    top: 20rem;
     right: 1.3rem;
-    max-width: 30rem;
+    max-width: 20rem;
     border-radius: .5rem;
     padding: .5rem;
   }
@@ -305,6 +308,7 @@ footer {
 
 .img-circle {
   display: block;
+  float: none;
 }
 
 .card {
@@ -312,10 +316,26 @@ footer {
   width: 22%;
 }
 
+.contact {
+  text-align: center;
+}
+
   .review img {
     float: left;
     width: 50%;
+    margin: 1rem;
+    overflow: hidden;
   }
+
+  .review {
+    overflow: hidden;
+    float: right;
+  }
+
+  .review .border {
+  display: table-cell;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
