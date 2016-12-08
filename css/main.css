@@ -24,7 +24,10 @@ body {
 
 h1, h2, h3 {
   margin: 0;
+}
 
+h1, h2 {
+  font-family: Oswald, sans-serif;
 }
 
 h2 {
@@ -85,6 +88,12 @@ label {
   text-align: center;
 }
 
+nav li:hover {
+  background-color: #db3855;
+  border-radius: 10px;
+}
+
+
 .nav-list li:first-child, .nav-list li:nth-child(2) {
   width: 50%;
 }
@@ -104,6 +113,25 @@ p {
   padding-top: .75rem;
 }
 
+
+footer p {
+  text-align: left;
+  background-color: #e88899;
+  font-size: .5rem;
+  color: white;
+  margin-bottom: -2rem;
+  margin-bottom: 0;
+}
+
+
+.mostpopular p {
+  font-style: italic;
+  margin: 0;
+  font-size: .75rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
 .mostpopular {
   background-color: #e88899;
   color: white;
@@ -114,17 +142,9 @@ p {
   text-align: center;
 }
 
-.mostpopular p {
-  font-style: italic;
-  margin: 0;
-  font-size: .75rem;
-  padding-bottom: 1rem;
-  text-align: center;
-}
-
 .img-circle {
   border-radius: 50%;
-  width: 25%;
+  width: 24%;
   margin: .5rem;
 }
 
@@ -174,7 +194,7 @@ p {
 }
 
 .border {
-  border-radius: 1.5rem;
+  border-radius: 10px;
   border-color: #e6c7cc;
   border-style: solid;
   margin: 1.5rem;
@@ -185,7 +205,8 @@ p {
   text-align: center;
 }
 
-.location h2, p {
+.location h2,
+.location p {
   color: white;
 }
 
@@ -195,7 +216,7 @@ p {
 }
 
 .btn {
-  border-radius: .5rem;
+  border-radius: 5px;
   border-style: solid;
   background-color: #e88899;
   border-color: #e0647a;
@@ -211,13 +232,12 @@ p {
 
 .contact {
   background-color: #e88899;
+  text-align: center;
 }
 
-.contact h2, p {
-  color: white;
-}
-
+.contact h2,
 .contact p {
+  color: white;
   text-align: center;
 }
 
@@ -227,22 +247,22 @@ p {
   text-align: center;
 }
 
-.review p {
+.review p  {
   font-style: italic;
 
 }
 
-footer {
+.review .img-flex {
+  border-radius: 10px;
+}
+
+cite {
   color: white;
   text-align: center;
   font-size: .75rem;
 }
 
-.trademark {
-  text-align: left;
-  background-color: #e88899;
-  font-size: .5rem;
-}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -283,21 +303,37 @@ footer {
     margin: 0 0 1.4rem;
   }
 
-  .nav-list li {
-  display: inline;
+  .nav {
+    display: block;
   }
 
-  .img-flex {
+  label {
+    display: none;
+  }
+
+  .nav-list li {
+  display: inline;
+  width: 20%;
+  float: left;
+  }
+
+  .nav-list li:first-child, .nav-list li:nth-child(2) {
+    width: 20%;
+  }
+
+  .top-section {
     position: relative;
   }
 
   .mostpopular {
     position: absolute;
-    top: 20rem;
+    bottom: 1.3rem;
     right: 1.3rem;
     max-width: 20rem;
     border-radius: .5rem;
     padding: .5rem;
+    background-color: rgba(227, 124, 142, .5)
+
   }
 
   .card-text {
@@ -309,16 +345,17 @@ footer {
 .img-circle {
   display: block;
   float: none;
+  margin: 0 auto;
+  padding-top: .25rem;
+  width: 50%;
 }
 
 .card {
   display: inline-block;
-  width: 22%;
+  width: 24%;
+  vertical-align: top;
 }
 
-.contact {
-  text-align: center;
-}
 
   .review img {
     float: left;
@@ -335,6 +372,7 @@ footer {
   .review .border {
   display: table-cell;
   }
+
 
 }
 
