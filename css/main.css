@@ -342,6 +342,10 @@ cite {
 
   }
 
+.coffeelist p {
+  text-align: left;
+}
+
 .img-circle {
   display: block;
   float: none;
