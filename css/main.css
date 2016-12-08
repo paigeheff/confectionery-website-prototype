@@ -88,7 +88,8 @@ label {
   text-align: center;
 }
 
-nav li:hover {
+nav li:hover,
+nav a:hover {
   background-color: #db3855;
   border-radius: 10px;
 }
