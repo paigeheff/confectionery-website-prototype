@@ -342,6 +342,10 @@ cite {
     text-align: left;
   }
 
+  .coffeelist h3 {
+    padding-top: 1rem;
+  }
+
   .img-circle {
     display: block;
     float: none;
@@ -354,6 +358,10 @@ cite {
     display: inline-block;
     width: 24%;
     vertical-align: top;
+  }
+
+  .margin-bottom {
+    text-align: center;
   }
 
   .review img {
