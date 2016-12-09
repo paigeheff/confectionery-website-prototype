@@ -115,7 +115,7 @@ p {
 
 footer p {
   text-align: left;
-  background-color: #e88899;
+  background-color: #e7afb9;
   font-size: .5rem;
   color: white;
   margin-bottom: -2rem;
@@ -258,6 +258,11 @@ cite {
   color: white;
   text-align: center;
   font-size: .75rem;
+}
+
+.video {
+  background-color: #e88899;
+  text-align: center;
 }
 
 @media only screen and (min-width: 25em) {
