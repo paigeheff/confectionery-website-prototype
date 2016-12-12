@@ -262,7 +262,18 @@ cite {
 
 .video {
   background-color: #e88899;
-  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
 }
 
 @media only screen and (min-width: 25em) {
